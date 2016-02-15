@@ -1,0 +1,78 @@
+* {
+	font-family: 'Oswald',serif; 
+}
+header{
+	background-image:url("../images/background.jpg"); /*Fonde del encabezado*/
+	background-size: cover;
+	width: 100%;
+	min-height: 300px;
+	margin-bottom: 60px;
+}
+header div{ 				/*El texto del encabezado*/
+	text-align: center;
+	color:white;
+	padding: 5px;
+}
+h2, h6, h3{
+	color:#AC58FA;
+}
+#none{
+	color:white;
+}
+#perfil{
+	border: 5px inset gray; /*Foto de perfil*/
+	border-radius: 200px;
+	float: left;
+	margin-top: 100px;
+	margin-right: 20px;
+}
+.per1{
+	margin-top: 100px;
+	margin-left: 320px;
+	width: 300px;
+}
+
+p{
+	width: 300px;
+}
+.per2{
+	margin-top: 10px;
+	margin-left: 320px;
+	text-align: center;
+}
+.imag{
+	height: 120px;
+	width: 120px;
+	display: inline;
+	border: 5px double #AC58FA;
+	border-radius:200px;
+	margin-bottom: 20px;
+	margin-left: 20px;
+}
+
+div .imag{
+	position: relative;
+	top:30px;
+	left: 160px;
+}
+
+section{
+	margin-bottom: 100px;
+}
+
+footer{
+	background-image:url("../images/tile2.png");
+	height:200px;
+}
+
+.per3{
+	margin-top: 20px;
+	text-align: center;
+}
+
+.per3 img{
+	height: 80px;
+	width: 80px;
+	margin:60px 20px 0 20px;
+
+}
